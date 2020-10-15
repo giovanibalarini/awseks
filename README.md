@@ -12,6 +12,8 @@ Simplesmente ter as três ferramentas juntas em um unico lugar já pensado por m
 # Como usar?
 Um exemplo bem simples de uso dele é:
 
+```docker container run --rm -ti -v ~/.aws:/root/.aws -e AWS_PROFILE=<seu profile> --name awseks govdlx/awseks```
+
 # Como sei que esta imagem está atualizada ou não?
 Um container executara a atualização automatica semanalmente essa imagem, então fique tranquilo.
 
